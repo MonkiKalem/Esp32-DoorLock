@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "984856042860",
+    "firebase_url": "https://esp32doorlock-7877f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "esp32doorlock-7877f",
+    "storage_bucket": "esp32doorlock-7877f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984856042860:android:19da0d9e7728cefd7f6749",
+        "android_client_info": {
+          "package_name": "com.example.doorlockesp32"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszlzpFdY-nLkJbjtczW0gZeyh_2VKF5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984856042860:android:5caa0fa5a73eadab7f6749",
+        "android_client_info": {
+          "package_name": "com.example.esp32doorlock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszlzpFdY-nLkJbjtczW0gZeyh_2VKF5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
