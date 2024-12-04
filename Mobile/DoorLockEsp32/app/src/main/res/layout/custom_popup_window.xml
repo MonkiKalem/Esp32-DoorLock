@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Door Status"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/notificationMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The door has been open for 30 seconds."
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCloseDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close Door"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnIgnore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ignore"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
